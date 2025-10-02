@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: todo-api
+    env: node
+    buildCommand: ""
+    startCommand: node server.js
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3001
